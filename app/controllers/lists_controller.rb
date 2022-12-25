@@ -10,9 +10,10 @@ class ListsController < ApplicationController
   end
 
   def index
+    @lists = List.all
   end
 
-  def show
+  雄亮
   end
 
   def edit
